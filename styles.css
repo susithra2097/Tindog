@@ -39,7 +39,7 @@ p {
 /* Sections */
 
 .colored-section {
-  background-color: #ff4c68;
+  background-color: #3da7b9;
   color: #fff;
 }
 
@@ -77,7 +77,7 @@ p {
 /* Title Section */
 
 #title {
-  background-color: #ff4c68;
+  background-color: #1ccaca;
   color: #fff;
   text-align: left;
 }
@@ -110,18 +110,18 @@ p {
 }
 
 .icon {
-  color: #ef8172;
+  color: #3279a8;
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #ff4c68;
+  color: #34b6c7;
 }
 
 /* Testimonial Section */
 
 #testimonials {
-  background-color: #ef8172;
+  background-color: #33babe;
 }
 
 .testimonial-text {
@@ -136,7 +136,7 @@ p {
 }
 
 #press {
-  background-color: #ef8172;
+  background-color: #37c0c5;
   padding-bottom: 3%;
 }
 
@@ -177,4 +177,8 @@ p {
     position: static;
     transform: rotate(0);
   }
+}
+
+html::-webkit-scrollbar-track {
+  background: #33babe;
 }
